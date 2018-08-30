@@ -1,15 +1,13 @@
 # sorts.py
 #
 # 08-30-2018
-#
-# originally completed 03-19-2018; updated file description today. sorts.py contains some implementations
+#  originally completed 03-19-2018; updated file description today. sorts.py contains some implementations
 # of basic sorts, including insertion sort, selection sort, merge sort, quick sort, and a hybrid sort
 # that uses insertion sort for small sets and otherwise uses recursive quick sort. potentially a heap sort
 # implementation will be added at some point; some of these functions need to be rewritten more concisely
 # and efficiently.
 #
 # 03-19-2018
-#
 # original completion
 #
 
