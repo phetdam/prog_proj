@@ -1,0 +1,13 @@
+// format: dorm name, nearest gym with weights and cardio, nearest dining hall, time to stern, time to gym, time to dining hall, time to quiet study lounge
+// note that dining hall times and quiet study lounge times (taking into account distance to stern and a dorm's own applicable quiet lounge) may be averaged
+Lafayette Hall,404,Kimmel,20,19,23,20
+Palladium,Palladium,Palladium,15,1,1,15
+Second Street,404,Kimmel/Weinstein,8,6,12,8
+Alumni Hall,404,Third North,11,6,2,11
+Carlyle Court,Palladium,Palladium/Third North,13,7,8,13
+// gramercy has lounges that are almost as good as bobst; these qualify as "quiet" lounges
+// so time to reach them (2 mins elevator) is averaged with distance to stern (rounding up)
+// averaging gramercy's gym time (2 mins for elevator) with palladium (11 mins), rounding up
+Gramercy Green,Palladium/Gramercy,Palladium/Third North,25,7,11,14
+// time to reach palladium and third north has been averaged (3 mins each), and time to reach coral's lounge (2 mins elevator) and stern has been averaged
+Coral Tower,Palladium,Palladium/Third North,16,3,3,9
