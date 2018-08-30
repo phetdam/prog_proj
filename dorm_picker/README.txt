@@ -10,6 +10,8 @@ background:I couldn't figure out which dorm I wanted to live in next year, so I 
 
 Written in Java, in a NetBeans environment; hopefully one of the last times I will ever use Java. Might as well use C for any general purpose programming.
 
+So apparently when you add all commit changes for files in a directory, they get slapped with the same message...oops
+
 02-13-2018
 
 dorm selection program: based on quantifiable travel times to Stern, the nearest dining hall, the nearest gym, and the nearest quiet study space, these times will be aggregated into a total "elapsed time" quantifiable, with the lower score signifying a better hall. capitalized coefficients adjust for relative weighting of each particular category of time. 
