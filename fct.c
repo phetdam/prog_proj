@@ -1,8 +1,12 @@
 /*
  * fct.c
- * contains macros and function declarations for stats.c
+ * file counting utility
  *
  * Changelog:
+ *
+ * 10-29-2018
+ *
+ * removed unrelated comment about stats.c
  *
  * 09-10-2018
  * added changelog, rewritten 
