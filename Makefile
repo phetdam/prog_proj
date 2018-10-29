@@ -2,6 +2,10 @@
 #
 # Changelog:
 #
+# 10-28-2018
+#
+# added target for float_error
+#
 # 10-24-2018
 #
 # added targets for pattern, bsp, daqh, fct, cir, dummy, clean
@@ -19,6 +23,7 @@ BSP_C = bsp.c
 FCT_C = fct.c
 DAQH_C = daqh.c
 PATTERN_C = pattern.c
+FLOAT_ERROR_C = float_error.c
 
 # dummy target
 dummy:
@@ -30,6 +35,10 @@ bsp: $(BSP_C)
 # fct (file counting utility)
 fct: $(FCT_C)
 	$(CC) $(CFLAGS) -o fct $(FCT_C)
+
+# shows floating point error
+float_error: $(FLOAT_ERROR_C)
+	$(CC) $(CFLAGS) -o float_error $(FLOAT_ERROR_C)
 
 # daqh (dynamic array query handler)
 daqh: $(DAQH_C)
